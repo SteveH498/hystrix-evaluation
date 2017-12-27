@@ -1,0 +1,9 @@
+---
+applications:
+- name: mle-hystrix-eval
+  path: C:\Users\D061640\IdeaProjects\hystrixevaluation\target\hystrix-evaluation-1.0-SNAPSHOT.jar
+  buildpack: sap_java_buildpack
+  memory: 1024M
+  instances: 1
+  services:
+   - mle-redis
